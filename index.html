@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Encriptador/Desencriptador</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Logo-1.png" alt="logotipo Alura" class="logo">
+    </header>
+    <main class="cajasdetexto">
+
+        <div class="caja1">
+            <textarea name="" id="ingresotxt" cols="30" rows="10" class="ingresotxt" onfocus="this.select()" placeholder="Ingrese texto aquí"></textarea>
+
+            <p><img src="imagenes/bi_exclamation-circle-fill.png" alt=""> Solo letras minúsculas y sin acentos</p>
+
+            <div class="cajabotones">
+                <input class="botonencriptar" type="button" onclick="encriptar()" value="Encriptar">
+                <input class="botondesencriptar" type="button" onclick="desencriptar()" value="Desencriptar">
+            </div>
+        </div>
+
+        <div id="caja2" class="caja2">
+            <div id="cajamensaje" class="cajamensaje">
+                <img id= "maniqui" class="maniqui" src="imagenes/Muñeco.png" alt="">
+                <p class="titulo">Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea name="" id="respuestatxt" cols="30" rows="10" class="respuestatxt" readonly="readonly"></textarea>
+            <input id="botoncopiar" class="botoncopiar" type="button" onclick="copiar()" value="Copiar">
+        </div>
+    </main>
+
+    <footer>
+        <p>Elaborado por Bryan Flores García para Alura Challenge</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,311 @@
+html {
+    background: #F3F5FC;
+}
+
+/* fuente de letra inter de google*/
+.ingresotxt,
+.respuestatxt,
+button,
+p {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+}
+
+p {
+    font-size: 12px;
+}
+
+p img {
+    margin-right: 8px;
+}
+
+.logo {
+    padding: 40px;
+}
+
+.cajasdetexto {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.caja1,
+.caja2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.caja1 {
+    width: 680px;
+    height: 784px;
+    margin: 0px 80px;
+    margin-top: 40px;
+}
+
+.caja2 {
+    width: 336px;
+    background: white;
+    padding: 32px;
+    height: 880px;
+    margin-top: -80px;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+
+}
+
+.ingresotxt,
+.respuestatxt {
+    background: none;
+    border: none;
+    resize: none;
+}
+.ingresotxt:focus,
+.respuestatxt:focus {
+    border: none;
+    outline: none;
+}
+
+.ingresotxt {
+    padding: 0px;
+    margin-bottom: 40px;
+    font-size: 34px;
+    color: #0A3871;
+    line-height: 48px;
+    width: 680px;
+    height: 654px;
+}
+
+.respuestatxt {
+    font-size: 26px;
+    line-height: 36px;
+    color: gray;
+    padding: 0;
+    width: 336px;
+    height: 781px;
+    visibility: hidden;
+}
+
+.cajasdetexto input {
+    font-size: 16px;
+    height: 67px;
+}
+
+.botoncopiar {
+    width: 336px;
+    padding: 0;
+    margin-top: 32px;
+    border-radius: 32px;
+    visibility: hidden;
+}
+
+.cajabotones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.botonencriptar {
+    background: #0A3871;
+    color: white;
+    width: 328px;
+    padding: 0;
+    margin: 0;
+    border-radius: 32px;
+}
+
+.botondesencriptar {
+    width: 328px;
+    padding: 0;
+    margin: 0;
+    border-radius: 32px;
+}
+
+.cajamensaje {
+    position: absolute;
+    width: 336px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cajamensaje p {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cajamensaje .titulo {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px)  {
+
+    header {
+        height: 96px;
+    }
+
+    .logo {
+        margin-left: -29px;
+        padding: 24px 0;
+    }
+
+    .cajasdetexto {
+        width: 375px;
+        margin: 0 auto;
+        margin-top: 56px;
+    }
+
+    .caja1 {
+        width: 343px;
+        height: 550px;
+        margin: 0 16px;
+        
+    }
+
+    .ingresotxt {
+        padding: 0px;
+        margin-bottom: 32px;
+        font-size: 34px;
+        color: #0A3871;
+        line-height: 48px;
+        width: 343px;
+        height: 275px;
+    }
+
+    .cajabotones {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .cajabotones input {
+        width: 343px;
+        margin: 12px 0;
+    }
+
+    .caja2 {
+        width: 279px;
+        height: 120px;
+        background: white;
+        padding: 32px;
+        border: none;
+        border-radius: 32px;
+        margin: 0 16px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cajamensaje {
+        position: absolute;
+        width: 279px;
+        height: 56px;
+        margin: 32px;
+    }
+    
+    .respuestatxt {
+        font-size: 26px;
+        line-height: 36px;
+        color: gray;
+        padding: 0;
+        width: 279px;
+        height: 150px;
+        visibility: hidden;
+    }
+
+    .cajamensaje img {
+        display: none;
+    }
+
+    .cajamensaje .titulo {
+        margin: 0;
+    }
+
+    .botoncopiar {
+        width: 336px;
+        padding: 0;
+        margin-top: 32px;
+        border-radius: 32px;
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) and (min-height: 768px) {
+
+    .logo {
+        padding: 40px 0;
+    }
+
+    .cajasdetexto {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .caja1 {
+        margin: 0 40px;
+        width: 688px;
+        height: 694px;
+        margin-top: 40px;
+    }
+
+    .ingresotxt {
+        padding: 0px;
+        margin-bottom: 40px;
+        font-size: 34px;
+        color: #0A3871;
+        line-height: 48px;
+        width: 688px;
+        height: 510px;
+    }
+
+    .caja2 {
+        width: 624px;
+        height: 56px;
+        background: white;
+        padding: 32px;
+        border: none;
+        border-radius: 32px;
+        margin: 0 40px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cajamensaje {
+        position: absolute;
+        width: 624px;
+        height: 56px;
+    }
+    
+    .respuestatxt {
+        font-size: 26px;
+        line-height: 36px;
+        color: gray;
+        padding: 0;
+        width: 624px;
+        height: 150px;
+        visibility: hidden;
+    }
+
+    .cajamensaje img {
+        display: none;
+    }
+
+    .cajamensaje .titulo {
+        margin: 0;
+    }
+
+    .botoncopiar {
+        width: 336px;
+        
+        padding: 0;
+        margin-top: 32px;
+        border-radius: 32px;
+        visibility: hidden;
+    }
+}
