@@ -111,8 +111,9 @@ p img {
     padding: 0;
     margin: 0;
     border-radius: 32px;
+    transition: 1s all;
+    
 }
-
 .botonencriptar:hover {
     background: rgba(28, 55, 255, 0.733);
     transform: scale(1.1);
@@ -123,6 +124,7 @@ p img {
     padding: 0;
     margin: 0;
     border-radius: 32px;
+    transition: 1s all;
 }
 
 .botondesencriptar:hover {
@@ -148,6 +150,13 @@ p img {
     margin-top: 32px;
     font-size: 24px;
     font-weight: bold;
+}
+footer {
+    display:flex;
+    align-items: center;
+}
+footer p {
+    margin-left: 5px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px)  {
