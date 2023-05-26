@@ -151,13 +151,7 @@ p img {
     font-size: 24px;
     font-weight: bold;
 }
-footer {
-    display:flex;
-    align-items: center;
-}
-footer p {
-    margin-left: 5px;
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 767px)  {
 
