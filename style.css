@@ -113,11 +113,21 @@ p img {
     border-radius: 32px;
 }
 
+.botonencriptar:hover {
+    background: rgba(28, 55, 255, 0.733);
+    transform: scale(1.1);
+}
+
 .botondesencriptar {
     width: 328px;
     padding: 0;
     margin: 0;
     border-radius: 32px;
+}
+
+.botondesencriptar:hover {
+    background: rgb(200, 216, 248);
+    transform: scale(1.1);
 }
 
 .cajamensaje {
